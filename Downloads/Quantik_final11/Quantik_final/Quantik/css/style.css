@@ -1,0 +1,122 @@
+/* Reset some default styles */
+body, h1, th, td, button, img, .jeu, .validePose, .nonValide, .nonVide, #case, .replay {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+
+    background-color: #307634;
+    text-align: center;
+    font-family: Arial, serif;
+}
+
+/* Header styles */
+h1 {
+
+    font-size: 70px;
+    font-weight: 600;
+    color: #fdfafe;
+    text-shadow: 0px 0px 5px #bb3399, 0px 0px 10px #bb3399, 0px 0px 10px #bb3399,
+    0px 0px 20px #bb3399;
+    padding: 50px;
+}
+
+/* Table header styles */
+th {
+    background-color: #8B43; /* Brown color resembling wood */
+    border: 2px solid #6B1826; /* Darker border for definition */
+    padding: 10px;
+}
+
+/* Table cell styles */
+td {
+
+    background-color: #D2B48C; /* Beige color resembling wood or marble */
+    border: 1px solid #6B4226; /* Darker border for definition */
+    padding: 20px;
+}
+
+/* Game container styles */
+.jeu {
+    margin: 0 auto;
+
+}
+
+/* Valid pose styles */
+.validePose {
+    background-color: #19f319;
+   /* background-image: url("/css/images/brushed-alum.png");*/
+}
+
+/* Invalid pose styles */
+.nonValide {
+    background-color: #e01212;
+   /* background-image: url("/css/images/brushed-alum.png");*/
+}
+
+/* Non-empty cell styles */
+.nonVide {
+   /* background-image: url("/css/images/brushed-alum.png");*/
+}
+
+/* Case styles */
+#case {
+    border: 3px solid #ff8500;
+    padding: 15px;
+    width: 55px;
+    height: 55px;
+}
+
+/* Button styles */
+button {
+    border: none;
+    cursor: pointer;
+    background-color: inherit;
+}
+.annuler-btn {
+    background-color: red;
+    color: white;
+}
+
+/* Image styles */
+img {
+    width: 50px;
+}
+
+/* Selected piece styles */
+td:has(.selectPiece) {
+    background-color: #f14848;
+   /* background-image: url("/css/images/brushed-alum.png");*/
+}
+
+/* Available pieces styles */
+td:has(.piecesDispo) {
+   /* background-image: url("/css/images/brushed-alum.png");*/
+}
+
+/* Replay button styles */
+.replay {
+    border: none;
+    cursor: pointer;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+
+}
+
+/* Black victory styles */
+td:has(.victnoire) {
+    background-color: #735dd7;
+   /* background-image: url("/css/images/brushed-alum.png");*/
+}
+
+/* White victory styles */
+td:has(.victblanc) {
+    background-color: #f16565;
+   /* background-image: url("/css/images/brushed-alum.png");*/
+}
+
+
